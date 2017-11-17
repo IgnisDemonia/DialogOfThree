@@ -6,9 +6,9 @@ import java.io.InputStreamReader;
  * Created by Skobelsky on 15.11.2017.
  */
 public class DialogOfThree {
-    public static void main(String[] args) throws InterruptedException{
+    public static void main(String[] args) throws InterruptedException {
         System.out.println("Вывести логически построенный диалог? ('Y' для согласия).");
-        try(BufferedReader reader = new BufferedReader(new InputStreamReader(System.in))) {
+        try (BufferedReader reader = new BufferedReader(new InputStreamReader(System.in))) {
             String answer = reader.readLine();
             if (answer.toLowerCase().equals("y")) {
 
